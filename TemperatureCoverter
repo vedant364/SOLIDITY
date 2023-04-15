@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.3;
+contract tempconverter{
+    function celciustofarenheit(int c) public pure returns(int){
+        return (c*9/5)+32 ;
+    }
+    function farenheittocelcius(int f)public pure returns(int){
+        return (f*5/9)-32;
+    }
+}
