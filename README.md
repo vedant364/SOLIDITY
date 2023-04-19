@@ -1,3 +1,3 @@
 # SOLIDITY
 Hey,This records my journey/ progress in solidity! 
-this is a simple hello world program
+And one new project that I execute everyday
