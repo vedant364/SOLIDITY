@@ -1,0 +1,10 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+contract DiceRoller{
+    function rollDice() public view returns(uint256){
+
+
+        uint256 randomNummber = uint256(keccak256(abi.encodePacked(block.prevrandao,block.timestamp,msg.sender)));
+        return(randomNummber % 6);
+    }
+}
