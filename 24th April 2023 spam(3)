@@ -1,0 +1,9 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.3;
+contract HelloWorld{
+    //adding public to below line will enable you to change the value of num
+    uint  num=123;
+    function get()public view returns(uint){
+        return num;
+    }
+}
